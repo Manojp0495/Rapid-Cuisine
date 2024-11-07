@@ -26,5 +26,5 @@ Footer
 - > git checkout develop
   > Open Vscode (>Code .)
   > npm install
-  > npx install -D parcel
+  >    npm install -D parcel
   > Add a chrome extension and turn it on (Allow CORS: Access-Control-Allow-Origin)

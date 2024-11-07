@@ -18,4 +18,13 @@ Footer
 - Copyright
 - Links
 - Address
-- Contact 
+- Contact
+
+- To clone and execute follow the below steps
+
+- git clone https://github.com/Manojp0495/Rapid-Cuisine.git
+- > git checkout develop
+  > Open Vscode (>Code .)
+  > npm install
+  > npx install -D parcel
+  > Add a chrome extension and turn it on (Allow CORS: Access-Control-Allow-Origin)

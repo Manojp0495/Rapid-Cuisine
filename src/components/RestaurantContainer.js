@@ -1,4 +1,5 @@
 import RestaurantCard from "./RestaurantCard";
+import { Link } from "react-router-dom";
 
 const RestaurantContainer = (props) => {
 
@@ -8,7 +9,7 @@ const RestaurantContainer = (props) => {
             <div className="res-container">
                {
                 myData.map((resturant)=>{
-                    return <RestaurantCard key={resturant.info.id} resData={resturant}/>
+                    return <Link key={resturant.info.id} to={"/restaurant/"+resturant.info.id}><RestaurantCard resData={resturant}/></Link>
                 })
                } 
             </div>

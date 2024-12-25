@@ -29,7 +29,7 @@ const Header = () => {
           </li>
           <li>Cart</li>
           <button
-            style={{ backgroundColor: "red" }}
+            style={{ backgroundColor: "blue" }}
             className="login"
             onClick={() => {
               btnNameReact === "Login"

@@ -29,7 +29,14 @@ const Header = () => {
           </li>
           <li>Cart</li>
           <button
-            style={{ backgroundColor: "red" }}
+            style={{
+              backgroundColor: "green",
+              border: "none",
+              borderRadius: "10px",
+              padding: "10px",
+              fontSize: "11px",
+              color: "white",
+            }}
             className="login"
             onClick={() => {
               btnNameReact === "Login"
